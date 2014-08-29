@@ -26,7 +26,7 @@ class ObjectLoaderTest extends \PHPUnit_Framework_TestCase {
 	}
 
 	/**
-	 * @expectedException \Exception
+	 * @expectedException \Chevron\ObjectLoader\Exceptions\ObjectLoaderException
 	 */
 	function test_loadObject_no_object(){
 
@@ -36,7 +36,7 @@ class ObjectLoaderTest extends \PHPUnit_Framework_TestCase {
 	}
 
 	/**
-	 * @expectedException \Exception
+	 * @expectedException \Chevron\ObjectLoader\Exceptions\ObjectLoaderException
 	 */
 	function test_loadObject_bad_path(){
 
