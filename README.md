@@ -1,4 +1,4 @@
-# chevron.objectloader
+# chevron/objectloader
 
 objectloader is a simple utility to recurse over a directory and load each php file. If
 the file returns a callable, it's called and passed the provided object. This is useful
