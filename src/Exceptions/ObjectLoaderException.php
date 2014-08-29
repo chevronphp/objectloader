@@ -2,4 +2,4 @@
 
 namespace Chevron\ObjectLoader\Exceptions;
 
-class ObjectLoaderException extends \Exception;
+class ObjectLoaderException extends \Exception {}
