@@ -1,8 +1,8 @@
 {
-	"name"        : "henderjon/chevron-objectloader",
+	"name"        : "chevron/objectloader",
 	"type"        : "library",
-	"description" : "pass an object to each callable returned by recursively loading files",
-	"homepage"    : "http://github.com/henderjon/chevron.objectloader",
+	"description" : "populate an object by recursively loading files",
+	"homepage"    : "http://github.com/chevronphp/objectloader",
 	"license"     : "BSD-3-Clause",
 	"authors"     : [
 		{
